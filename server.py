@@ -22,3 +22,7 @@ def contact():
 @app.route("/categories.html")
 def categories():
     return render_template("categories.html")
+
+@app.route("/joinus.html")
+def joinus():
+    return render_template("joinus.html")
